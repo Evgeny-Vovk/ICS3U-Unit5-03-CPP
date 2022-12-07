@@ -7,7 +7,7 @@
 #include <iostream>
 #include <string>
 
-int convertToMark(std::string (markAsLevel)) {
+int convertToMark(std::string(markAsLevel)) {
     // variables
     int markAsGrade;
 
@@ -48,7 +48,7 @@ int convertToMark(std::string (markAsLevel)) {
 
 int main() {
     // creating variables
-    std::string (markAsLevel);
+    std::string(markAsLevel);
     int markAsGrade;
 
     // input
