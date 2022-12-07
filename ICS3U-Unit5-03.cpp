@@ -60,7 +60,7 @@ int main() {
     markAsGrade = convertToMark(std::string(markAsLevel));
     if (markAsGrade <= 100 && markAsGrade >= 0) {
         std::cout << "You got a mark of " << markAsGrade << "%.";
-    } else if (markAsGrade == -1) {
+    } else {
         std::cout << "Please input a valid mark.";
     }
 
